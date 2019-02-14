@@ -17,25 +17,25 @@ public class Main {
 	
 	//////////////////////////
 	//  Credits:            //
-	//   YeeModz            //
+	//   BlumeCoding        //
 	//                      //
-	//   ImFrozen für       //
+	//   ImFrozen fÃ¼r       //
 	//   TXT read code      //
 	//                      //
 	//////////////////////////
 	
-	// 1. Du kannst beim status keine ascii zeichen benutzen nur UTF-8
-	// 2. bei Problemen und Fragen stehe ich gerne zu verfügung 
-	// 3. NICHT LEAKEN
-	// 4. ihr müsst eine App erstellen für twitter unter https://apps.twitter.com/
-	// 5. ihr müsst einen acc haben der eine Nummer verifieziert hat 
-	// 6. Die keys unten bekommt ihr nach dem erstellen der twitter app
-	// 7. ihr könnt die tweets designen wie ihr wollt aber datum muss drin bleiben
+	//  Du kannst beim status keine ascii zeichen benutzen nur UTF-8
+	// bei Problemen und Fragen stehe ich gerne zu verfÃ¼gung 
+	
+	//  ihr mÃ¼sst eine App erstellen fÃ¼r twitter unter https://apps.twitter.com/
+	//  ihr mÃ¼sst einen acc haben der eine Nummer verifieziert hat 
+	//  Die keys unten bekommt ihr nach dem erstellen der twitter app
+	// ihr kÃ¶nnt die tweets designen wie ihr wollt aber datum muss drin bleiben
 	// weil ich leider einen  bug habe den ich nicht gefixt bekomme sonst postet
 	// er nur das datum und nicht den acc
-	// 8. ihr erstellt entweder mehrere bots und lässt sie laufen oder ihr packt in
+	//  ihr erstellt entweder mehrere bots und lÃ¤sst sie laufen oder ihr packt in
 	// die txt file vor dem acc den sogennanten provider davon vor besser bekomm ichs net hin
-	//Mittlerweile muss man jetzt bei Twitter eine Anfrage erstellen um Jetzt eine Twitter Application erstellen zu können
+	//Mittlerweile muss man jetzt bei Twitter eine Anfrage erstellen um Jetzt eine Twitter Application erstellen zu kÃ¶nnen
 
 	
 	public static Random r = new Random();
@@ -64,9 +64,9 @@ while(true) {
 			while ((line = reader.readLine()) != null) {
 				try {
 					String status = String.format(
-							"»NIGGER STIFFI AHHHH« [%s]\r\n\r\nDATUM: %s\r\n acc : %s \r\n", i,
+							"Â»NIGGER STIFFI AHHHHÂ« [%s]\r\n\r\nDATUM: %s\r\n acc : %s \r\n", i,
 							s.format(date), line);
-					System.out.println("Status wurde geändert zu " + status);
+					System.out.println("Status wurde geÃ¤ndert zu " + status);
 
 					twitter.updateStatus(status);
 					i++;
