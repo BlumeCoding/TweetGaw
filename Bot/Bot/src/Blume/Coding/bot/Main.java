@@ -64,7 +64,7 @@ while(true) {
 			while ((line = reader.readLine()) != null) {
 				try {
 					String status = String.format(
-							"»NIGGER STIFFI AHHHH« [%s]\r\n\r\nDATUM: %s\r\n acc : %s \r\n", i,
+							"OUTPUT: [%s]\r\n\r\nDATUM: %s\r\n acc : %s \r\n", i,
 							s.format(date), line);
 					System.out.println("Status wurde geändert zu " + status);
 
